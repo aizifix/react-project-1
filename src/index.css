@@ -1,0 +1,89 @@
+* {
+  color: rgb(223, 223, 223);
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: hsla(0, 0%, 0%, 0.929);
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card-container {
+  border: 1px solid rgb(223, 223, 223);
+  display: inline-block;
+  width: 15rem;
+  height: auto;
+  border-radius: 0.5rem;
+  padding: 2rem 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container .image-container {
+  border: 1px solid rgb(223, 223, 223);
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.card-container .card-content {
+  width: 100%;
+}
+
+.card-content a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(223, 223, 223);
+  color: hsla(0, 0%, 0%, 0.929);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  transition: all 0.25s ease;
+}
+
+.card-content a:hover {
+  background-color: transparent;
+  color: rgb(223, 223, 223);
+  border: 1px solid rgb(223, 223, 223);
+}
+
+.image-container img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2.3rem;
+}
+
+.true {
+  background-color: rgba(0, 123, 0, 0.689);
+  color: rgb(0, 243, 0);
+  border: 1px solid rgb(0, 243, 0);
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.5rem;
+}
+
+.false {
+  background-color: rgba(123, 0, 0, 0.689);
+  color: rgb(255, 34, 34);
+  border: 1px solid rgb(255, 34, 34);
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.5rem;
+}
