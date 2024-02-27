@@ -9,4 +9,4 @@ Currently, two official plugins are available:
 
 
 # React Project 1 - Profile Cards with Dynamic Status
-This is the beginning of my journey with React, starting with a mini project that allows me to dive deep into the fundamentals of using arrays, maps, and objects within the React.js framework. As I continue to explore and understand the intricacies of React, I look forward to creating and sharing more complex and interactive projects with you all in the near future.
+Starting with a mini project with React that allows me to dive deep into the fundamentals of using arrays, maps, and objects within the React.js framework. As I continue to explore and understand the intricacies of React, I look forward to creating and sharing more complex and interactive projects with you all in the near future.
